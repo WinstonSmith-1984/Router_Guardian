@@ -1,0 +1,54 @@
+To get **Router Guardian** actually seeing traffic, you need to tell your router to act as the data source. This is usually called "Remote Syslog" or "Log Forwarding."
+
+### 📡 Router Configuration Guide
+
+Adding this section to your **README** will help users get the tool running:
+
+1. **Identify your Host IP**: Find the local IP address of the computer running `router_guardian.py` (e.g., `192.168.50.15`).
+2. **Access Router Settings**: Log into your router’s web interface (usually `192.168.1.1` or `192.168.50.1`).
+3. **Find Log Settings**: Look for a menu labeled **System Log**, **Administration**, or **Status**.
+4. **Enable Remote Logging**:
+* **Remote Log Server**: Enter your computer's IP address.
+* **Port**: Enter `1514` (as defined in your code).
+
+
+5. **Save & Apply**: Once saved, the router will begin broadcasting UDP packets that the script’s `syslog_listener` will intercept.
+
+---
+
+### 📋 Example README Section: Quick Start
+
+```markdown
+## 🚀 Quick Start
+
+### 1. Prepare Environment
+Ensure you have Python 3.8+ installed, then install dependencies:
+```bash
+pip install -r requirements.txt
+
+```
+
+### 2. Configure Your Router
+
+Go to your router's **Admin/Syslog** settings and point the **Remote Syslog Server** to your computer's IP on port `1514`.
+
+### 3. Launch the Guardian
+
+```bash
+streamlit run router_guardian.py
+
+```
+
+### 4. Verify Connection
+
+Look for the `🖧 PULSE: Heartbeat received` message in the **Live Event Stream** at the bottom of the dashboard.
+
+```
+
+---
+
+### 🛡️ Why Port 1514?
+Your script is specifically bound to `SYSLOG_PORT = 1514`. Standard Syslog often uses port `514`, but using `1514` is a common practice to avoid needing "Administrator/Root" privileges on many operating systems to open the port.
+
+
+```
