@@ -5,6 +5,8 @@
     <img src="https://images.credly.com/images/a74dc347-5429-4fc2-8878-74df7c213866/ibm-cybersecurity-analyst-professional-certificate.png" width="130" height="130" alt="IBM Cybersecurity Analyst Professional Certificate">
   </a>
 </p>
+<a href="mailto:derekconlon&#64;hotmail&#46;co&#46;uk" title="Email">📫</a>
+</p>
 
 Router Guardian is a high-performance, tactical security dashboard designed to intercept, analyze, and visualize router syslog data in real-time. It transforms raw network logs into a **"glass cockpit"** of actionable intelligence, allowing you to monitor inbound threats with the precision of a Network Operations Center (NOC).
 
