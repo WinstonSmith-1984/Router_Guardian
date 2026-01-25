@@ -1,5 +1,5 @@
 # Hi, I'm Derek <p align="right"> <a href="mailto:derekconlon&#64;hotmail&#46;co&#46;uk" title="Email">📫</a> </p>
-<a href="https://www.credly.com/badges/270c2310-e8c5-4216-b474-f24ff2d9cec4/public_url" target="_blank">cybersecurity enthusiast</a> focused on **Living off the Land (LOTL) detection** and internal network threat intelligence.
+<a href="https://www.credly.com/badges/270c2310-e8c5-4216-b474-f24ff2d9cec4/public_url" target="_blank">Cybersecurity enthusiast</a> focused on **Living off the Land (LOTL) detection** and internal network threat intelligence.
 
 
 ---
