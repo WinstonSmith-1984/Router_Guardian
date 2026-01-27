@@ -1,10 +1,12 @@
-# 🛡️ Router Guardian (v1.6.5)
-<p align="left">
-Hi , I'm Derek, a cybersecurity analyst. <a href="https://www.credly.com/badges/270c2310-e8c5-4216-b474-f24ff2d9cec4/public_url" target="_blank"> 🏅</a>  Specialising in developing  network threat intelligence software.
-   
-### 🛡️ Contact: [![Encrypted Signal](https://img.shields.io/badge/Signal-End--to--End%20Encrypted-blue?style=flat-square&logo=signal&logoColor=white)](https://signal.me/#eu/89vdbTjG9CIOm4P9fsQh11rpyLnOKqhPyLRuyZFcipeOx2P_cyFIHLYrEVWteCPV)
----
+# <img src="owl-logo.png" width="38" height="38" align="center"> Router Guardian (v1.6.5)
 
+<p align="left">
+Hi, I'm Derek, a cybersecurity analyst. <a href="https://www.credly.com/badges/270c2310-e8c5-4216-b474-f24ff2d9cec4/public_url" target="_blank"> 🏅</a> Specializing in developing network threat intelligence software.
+</p>
+
+### <img src="owl-logo.png" width="24" height="24" align="center"> Contact: [![Encrypted Signal](https://img.shields.io/badge/Signal-End--to--End%20Encrypted-blue?style=flat-square&logo=signal&logoColor=white)](https://signal.me/#eu/89vdbTjG9CIOm4P9fsQh11rpyLnOKqhPyLRuyZFcipeOx2P_cyFIHLYrEVWteCPV)
+
+---
 
 **Router Guardian** is a high-performance, real-time security dashboard built with Python and Streamlit. It acts as a specialized Syslog collector that intercepts, geolocates, and analyzes blocked traffic logs from hardware routers (such as ASUS RT-series, OpenWrt, or pfSense). 
 
@@ -26,8 +28,6 @@ By transforming raw network logs into an interactive "Cyber-HUD," it provides in
     * **ISP Distribution**: Visual breakdown of attack origins using Plotly.
     * **Intelligence Profile**: Deep-dive analysis of specific IPs with localized "Intelligence Notes."
 * **Cyberpunk Aesthetic**: A sleek, dark-mode interface with a "Stealth Mode" design and two-tone UI elements.
-
-
 
 ---
 
