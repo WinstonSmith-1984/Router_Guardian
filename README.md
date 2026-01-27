@@ -1,4 +1,4 @@
-# <img src="owl-logo.png" width="48" height="48" align="center"> Router Guardian (v1.6.5)
+# <img src="owl-logo.png" width="68" height="68" align="center"> Router Guardian (v1.6.5)
 
 <p align="left">
 Hi, I'm Derek, a cybersecurity analyst. <a href="https://www.credly.com/badges/270c2310-e8c5-4216-b474-f24ff2d9cec4/public_url" target="_blank"> 🏅</a> Specializing in developing network threat intelligence software.
