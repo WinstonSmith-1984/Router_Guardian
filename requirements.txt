@@ -1,7 +1,8 @@
 NB:  A Virtual Environment is created to 'sandbox' this script on the Os.
 This ensures that the libraries we install don't interfere with your other projects or your computer's system settings. 
-I
-key componants:
+
+
+Key componants:
 
 streamlit
 
