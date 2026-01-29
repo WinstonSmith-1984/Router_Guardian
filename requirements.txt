@@ -1,4 +1,55 @@
+NB:  A Virtual Environment is created to 'sandbox' this script on the Os.
+This ensures that the libraries we install don't interfere with your other projects or your computer's system settings. 
+I
+key componants:
+
 streamlit
+
 pandas
+
 plotly
+
 requests
+
+
+
+For Mac and Linux (setup.sh)
+
+# 1. Create the virtual environment
+echo "Creating sandbox..."
+python3 -m venv .venv
+
+# 2. Activate it, install requirements, and run
+# We use 'source' inside the subshell to ensure it activates correctly
+source .venv/bin/activate && \
+echo "Installing dependencies..." && \
+pip install --upgrade pip && \
+pip install -r requirements.txt && \
+echo "Launching Router Guardian..." && \
+streamlit run router_guardian.py
+
+****
+(the "1 liner cmd" option)
+python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && streamlit run router_guardian.py
+****
+
+------------
+
+For Windows (setup.bat)
+
+@echo off
+echo Creating sandbox...
+python -m venv .venv
+
+echo Installing dependencies...
+call .venv\Scripts\activate
+pip install -r requirements.txt
+
+echo Launching Router Guardian...
+streamlit run router_guardian.py
+pause
+
+******
+(1 line cmd option \ powershell)
+python -m venv .venv; .\ .venv\Scripts\Activate.ps1; pip install -r requirements.txt; streamlit run router_guardian.py
+*****
