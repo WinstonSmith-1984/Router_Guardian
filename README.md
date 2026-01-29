@@ -31,13 +31,20 @@ By transforming raw network logs into an interactive "Cyber-HUD," it provides in
 
 ---
 
-## 🛠️ Installation
+## 📦 Installation & Setup
 
-### 1. Requirements
-Ensure you have Python 3.10+ installed.
+### Option A: Standalone Executable (Easy / Recommended)
+No Python installation is required. This is the fastest way to get started.
 
-### 2. Clone & Install
-```bash
-git clone [https://github.com/YOUR_USERNAME/router-guardian.git](https://github.com/YOUR_USERNAME/router-guardian.git)
-cd router-guardian
-pip install streamlit pandas plotly requests
+1. Go to the **[Releases](https://github.com/YOUR_USERNAME/router-guardian/releases)** page.
+2. Download the binary for your OS (e.g., `router_guardian-windows.exe` or `router_guardian-linux`).
+3. Run the file. (See **Security Notes** below regarding permissions).
+
+### Option B: Manual Install (For Developers)
+1. Ensure you have **Python 3.10+** installed.
+2. Clone & Install:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/router-guardian.git](https://github.com/YOUR_USERNAME/router-guardian.git)
+   cd router-guardian
+   pip install streamlit pandas plotly requests
+   streamlit run main.py
