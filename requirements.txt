@@ -1,8 +1,5 @@
-NB:  A Virtual Environment is created to 'sandbox' this script on the Os.
-This ensures that the libraries we install don't interfere with your other projects or your computer's system settings. 
-
-
-Key componants:
+NB:  A Virtual Environment is a prequsite in order to 'sandbox' this script on  you Os.
+This ensures that the libraries (below) installed don't interfere with your other projects or your computer's system settings. 
 
 streamlit
 
